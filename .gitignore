@@ -1,0 +1,6 @@
+#*/*.html
+#above ignores html files below the top level
+#alternative way of achieving that
+*.html
+!/*.html 
+# ! is negation - negate what has previously been specified #- don't ignore files that are in the top dir
